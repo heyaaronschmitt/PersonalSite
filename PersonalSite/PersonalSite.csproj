@@ -1,0 +1,102 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-PersonalSite-233E7D9E-FE96-49D0-960F-1A0D0C04400C</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\assets\css\all.css" />
+    <Content Remove="wwwroot\assets\css\bootstrap.min.css" />
+    <Content Remove="wwwroot\assets\css\responsive.css" />
+    <Content Remove="wwwroot\assets\css\style.css" />
+    <Content Remove="wwwroot\assets\fonts\fontawesome\fa-brands-400.eot" />
+    <Content Remove="wwwroot\assets\fonts\fontawesome\fa-brands-400.svg" />
+    <Content Remove="wwwroot\assets\fonts\fontawesome\fa-brands-400.ttf" />
+    <Content Remove="wwwroot\assets\fonts\fontawesome\fa-brands-400.woff" />
+    <Content Remove="wwwroot\assets\fonts\fontawesome\fa-brands-400.woff2" />
+    <Content Remove="wwwroot\assets\fonts\fontawesome\fa-regular-400.eot" />
+    <Content Remove="wwwroot\assets\fonts\fontawesome\fa-regular-400.svg" />
+    <Content Remove="wwwroot\assets\fonts\fontawesome\fa-regular-400.ttf" />
+    <Content Remove="wwwroot\assets\fonts\fontawesome\fa-regular-400.woff" />
+    <Content Remove="wwwroot\assets\fonts\fontawesome\fa-regular-400.woff2" />
+    <Content Remove="wwwroot\assets\fonts\fontawesome\fa-solid-900.eot" />
+    <Content Remove="wwwroot\assets\fonts\fontawesome\fa-solid-900.svg" />
+    <Content Remove="wwwroot\assets\fonts\fontawesome\fa-solid-900.ttf" />
+    <Content Remove="wwwroot\assets\fonts\fontawesome\fa-solid-900.woff" />
+    <Content Remove="wwwroot\assets\fonts\fontawesome\fa-solid-900.woff2" />
+    <Content Remove="wwwroot\assets\img\40.jpg" />
+    <Content Remove="wwwroot\assets\img\42.jpg" />
+    <Content Remove="wwwroot\assets\img\56.jpg" />
+    <Content Remove="wwwroot\assets\img\about\15.jpg" />
+    <Content Remove="wwwroot\assets\img\about\56.jpg" />
+    <Content Remove="wwwroot\assets\img\portfolio\43.png" />
+    <Content Remove="wwwroot\assets\img\portfolio\44.png" />
+    <Content Remove="wwwroot\assets\img\portfolio\45.png" />
+    <Content Remove="wwwroot\assets\img\portfolio\46.png" />
+    <Content Remove="wwwroot\assets\img\review\tes-1.jpg" />
+    <Content Remove="wwwroot\assets\img\review\tes-2.jpg" />
+    <Content Remove="wwwroot\assets\img\review\tes-3.jpg" />
+    <Content Remove="wwwroot\assets\js\ajax-contact.js" />
+    <Content Remove="wwwroot\assets\js\jquery.easing.min.js" />
+    <Content Remove="wwwroot\assets\js\theme.js" />
+    <Content Remove="wwwroot\assets\libs\bootstrap\bootstrap.bundle.min.js" />
+    <Content Remove="wwwroot\assets\libs\jquery\dist\jquery.min.js" />
+    <Content Remove="wwwroot\assets\libs\jquery\jquery.min.js" />
+    <Content Remove="wwwroot\index.html" />
+    <Content Remove="wwwroot\single-portfolio.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\css\all.css" />
+    <None Include="wwwroot\assets\css\bootstrap.min.css" />
+    <None Include="wwwroot\assets\css\responsive.css" />
+    <None Include="wwwroot\assets\css\style.css" />
+    <None Include="wwwroot\assets\fonts\fontawesome\fa-brands-400.eot" />
+    <None Include="wwwroot\assets\fonts\fontawesome\fa-brands-400.svg" />
+    <None Include="wwwroot\assets\fonts\fontawesome\fa-brands-400.ttf" />
+    <None Include="wwwroot\assets\fonts\fontawesome\fa-brands-400.woff" />
+    <None Include="wwwroot\assets\fonts\fontawesome\fa-brands-400.woff2" />
+    <None Include="wwwroot\assets\fonts\fontawesome\fa-regular-400.eot" />
+    <None Include="wwwroot\assets\fonts\fontawesome\fa-regular-400.svg" />
+    <None Include="wwwroot\assets\fonts\fontawesome\fa-regular-400.ttf" />
+    <None Include="wwwroot\assets\fonts\fontawesome\fa-regular-400.woff" />
+    <None Include="wwwroot\assets\fonts\fontawesome\fa-regular-400.woff2" />
+    <None Include="wwwroot\assets\fonts\fontawesome\fa-solid-900.eot" />
+    <None Include="wwwroot\assets\fonts\fontawesome\fa-solid-900.svg" />
+    <None Include="wwwroot\assets\fonts\fontawesome\fa-solid-900.ttf" />
+    <None Include="wwwroot\assets\fonts\fontawesome\fa-solid-900.woff" />
+    <None Include="wwwroot\assets\fonts\fontawesome\fa-solid-900.woff2" />
+    <None Include="wwwroot\assets\img\40.jpg" />
+    <None Include="wwwroot\assets\img\42.jpg" />
+    <None Include="wwwroot\assets\img\56.jpg" />
+    <None Include="wwwroot\assets\img\about\15.jpg" />
+    <None Include="wwwroot\assets\img\about\56.jpg" />
+    <None Include="wwwroot\assets\img\portfolio\43.png" />
+    <None Include="wwwroot\assets\img\portfolio\44.png" />
+    <None Include="wwwroot\assets\img\portfolio\45.png" />
+    <None Include="wwwroot\assets\img\portfolio\46.png" />
+    <None Include="wwwroot\assets\img\review\tes-1.jpg" />
+    <None Include="wwwroot\assets\img\review\tes-2.jpg" />
+    <None Include="wwwroot\assets\img\review\tes-3.jpg" />
+    <None Include="wwwroot\assets\js\ajax-contact.js" />
+    <None Include="wwwroot\assets\js\jquery.easing.min.js" />
+    <None Include="wwwroot\assets\js\theme.js" />
+    <None Include="wwwroot\assets\libs\bootstrap\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\assets\libs\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\assets\libs\jquery\jquery.min.js" />
+    <None Include="wwwroot\index.html" />
+    <None Include="wwwroot\single-portfolio.html" />
+  </ItemGroup>
+
+</Project>
